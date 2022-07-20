@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/78b41f4788.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- -------------------------container---------------- -->
+    <div class="container">
+        <!-- -------------------- start heading------------ -->
+        <div class="heading">
+            <h1>Student Registration form</h1>
+
+            <h2>Fill out the form for Registration</h2>
+        </div>
+        <!-- -----------------------end heading-------------------- -->
+       
+       
+        <!-- ---------------------- start name------------------------------------ -->
+        <form action="#"> 
+            <div class="row">
+                <div class="col-12">
+                    <label for="fname">Name </label>
+                    <div class="col-6">
+                        <input type="text" id="fname" name="fname" placeholder="firstname" class="col-12">
+                    </div>
+
+
+                    <div class="col-6">
+                        <input type="text" id="lname" name="lname" placeholder="Lastname" class="col-12">
+
+                    </div>
+        <!-- ----------------------end name---------------------- -->
+        <!-- -----------------------start Birthdate--------------- -->
+                     
+                            <div class="col-12">
+                                
+                                <div class="col-6">
+                                    <label for="birthday">Birth Date</label>
+                                <input type="date" id="birthday" name="birthday" class="col-12">
+                                </div>
+                
+                              
+                                <div class="col-6">
+                                    <label for="gender">Gender </label> 
+                                    <!-- <label for="fname">Name </label>     -->
+                                    <select id="gender" name="carlist" form="Please Select" class="col-12">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+    <!-- --------------------------end birtthdate------------------------------>
+    <!-- ---------------------------start Addres------------------------------ -->
+
+
+                            <!-- <div class="row"> -->
+                                <label for="Addres">Addres</label>
+                                <div class="col-12">
+                                    <input type="Addres" id="Addres" name="Addres" placeholder="Addres line 1"
+                                        class="col-12">
+                                </div>
+                                <div class="col-12">
+                                    <input type="Addres" id="Addres2" name="Addres" placeholder="Addres line 2"
+                                        class="col-12">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="pincode" name="pincode" placeholder="pincode"
+                                    class="col-12">
+                                    </div>
+                                    <div class="col-6">
+                                        <select id="region" name="carlist" form="Please Select" class="col-12">
+                                            <option value="Male">region</option>
+                                            <option value="Female">america</option>
+                                            <option value="0ther">canda</option>
+                                        </select>
+                                    </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <input type="text" id="zipcode" name="Zipcode" placeholder="zipcode"
+                                        class="col-12">
+                                        </div>
+
+                                        <div class="col-6">
+                                            <select id="states" name="carlist" form="united state" class="col-12">
+                                                <option value="united start">United state</option>
+                                                <option value="america">america</option>
+                                                <option value="canda">canda</option>
+                                            </select>
+                                        </div>
+                                        </div>
+<!-- --------------------------------end address------------------------------ -->
+<!-- ---------------------------------start email------------------------------ -->
+<div class="row">
+    <!-- <label for="email">Email</label> -->
+
+    <div class="col-12">
+        <label for="email">Email</label>
+    
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com" class="col-12">
+            <!-- <input type="text" id="fname" name="fname" placeholder="firstname" class="col-12"> -->
+        </div>
+        </div>
+ <!-- --------------------------------end email--------------------------- -->
+ <!-- --------------------------------start phoen-------------------------- -->
+<div class="col-6">
+    <label for="phoen">Phoen</label>
+    <!-- <i class="fa-solid fa-flag-usa"></i> -->
+    <input type="tetx"  name="phoen" placeholder="(201) 555-0213" class="col-12">
+    <!-- <i class="fa-solid fa-flag-usa"></i> -->
+   
+  </div>
+
+
+<!-- work phoen -->
+<div class="col-6">
+    <label for="workphoen">Work Phoen</label>
+    <input type="text" id="workphoen" placeholder="(201) 555-0213" class="col-12">
+   
+  </div>
+  <!-- ---------------------------------end phoen-------------------------- -->
+  <!-- --------------------------------start company------------------------- -->
+  <label for="company">Company</label>
+  <div class="col-12">
+  <input type="text" id="company" placeholder="company" class="col-12">
+  </div>
+  <!-- ---------------------------------end company-------------------------- -->
+  <!-------------------------------------start course -------------------------->
+  <label for="select course">Select course</label>
+<div class="col-12">
+  
+<select name="course" id="select course" class="col-12">
+    <option value="select course">select course</option>
+    <option value="degree">dggree</option>
+    <option value="diploma">diploma</option>
+    <option value="master">master</option>
+  </select>
+  </div>
+  <!-- --------------------------------endcourse------------------------------- -->
+  <!-- --------------------------------startcomment------------------------------ -->
+  <label for="comment">Comment</label>
+  <div class="col-12">
+  <input type="text" id="comment" placeholder="comment" class="col-12">
+  </div>
+  <!-- -------------------------------endcomment------------------------ -->
+  <!-- ------------------------------startbutton-------------------------- -->
+  <button>Clear Fields</button>
+  
+  <button class="part1">Submit Application</button>
+  <!-- -----------------------------end button------------------------------ -->
+  
+</div>
+  </div>
+ </form>
+</body>
+
+</html>
